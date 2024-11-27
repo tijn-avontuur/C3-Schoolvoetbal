@@ -7,4 +7,6 @@ namespace C3_Schoolvoetbal_Backend;
 
 public class SchoolVoetbalDbContext(DbContextOptions<SchoolVoetbalDbContext> options) : IdentityDbContext<IdentityUser>(options) {
     public DbSet<Team> Teams { get; set; }
+
+    public DbSet<Match> Matches { get; set; }
 }
