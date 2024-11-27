@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toto - Home</title>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    @vite(['resources/css/app.css'])
 </head>
 <body class="bg-gray-100">
     <!-- Navigatiebalk -->
@@ -21,7 +21,7 @@
 
     <!-- Foto -->
     <div class="container mx-auto mt-6">
-        <img src="{{ asset('images/soccer-banner.jpg') }}" alt="Voetbal Banner" class="w-full h-64 object-cover rounded-lg shadow-md">
+        <img src="{{ asset('img/Schermafbeelding 2024-11-27 104957.png') }}" alt="Voetbal Banner" class="w-full h-64 object-cover rounded-lg shadow-md">
     </div>
 
     <!-- Wedstrijden -->
