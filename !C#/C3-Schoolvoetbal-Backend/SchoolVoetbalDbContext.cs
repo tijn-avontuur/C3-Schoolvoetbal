@@ -9,4 +9,6 @@ public class SchoolVoetbalDbContext(DbContextOptions<SchoolVoetbalDbContext> opt
     public DbSet<Team> Teams { get; set; }
 
     public DbSet<Match> Matches { get; set; }
+
+    public DbSet<Bet> Bets { get; set; }
 }

@@ -4,6 +4,7 @@ using C3_Schoolvoetbal_Backend;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace C3_Schoolvoetbal_Backend.Migrations
 {
     [DbContext(typeof(SchoolVoetbalDbContext))]
-    partial class SchoolVoetbalDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241127111217_AddBetsSet")]
+    partial class AddBetsSet
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
