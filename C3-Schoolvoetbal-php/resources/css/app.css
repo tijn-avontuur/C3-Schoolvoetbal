@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient-header {
+    background: linear-gradient(to right, #00008b, #71d7ff); /* Donkerblauw naar lichtblauw */
+    color: #ffffff; /* Wit */
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gradient-footer {
+    background: linear-gradient(to left, #00008b, #71d7ff); /* Lichtblauw naar donkerblauw */
+    color: #ffffff; /* Wit */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.gradient-footer a {
+    color: #ffffff; /* Wit */
+    text-decoration: none;
+}
+
+.gradient-footer a:hover {
+    color: #ffeb3b; /* Geel */
+}
+
+.logged-out {
+    display: none;
+}
